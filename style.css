@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url(//db.onlinewebfonts.com/c/67137b5f6928edc941186baaab5a664b?family=Lemon/Milk);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Noto Sans', 'Sans Serif', 'Lemon Milk';
+}
+
+.body{
+    font-size: 100%;
+    background-color: #181221;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    height: 140px;
+    
+}
+
+.logo-start {
+    height: 120px;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 32px;
+}
+
+.navbar-item {
+    color: #00ffff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.navbar-item:hover{
+    color:#01aeae;
+    cursor: pointer;
+}
+
+.content {
+    border-top: 0.4px solid #00ffff;
+    margin-bottom: 48px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-sup {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 260px;
+}
+
+.h1-sup {
+    font-size: 64px;
+    font-weight:400;
+    font-family:'Lemon/Milk';
+    color: #00ffff;
+    padding-top: 100px;
+
+
+}
+
+.h2-sup {
+    font-size: 24px;
+    font-weight: 800;
+    font-family:'Noto Sans';
+    color: #ffffff;
+}
+
+.btn-sup {
+    background-color:#00ffff;
+    color: #181221;
+    width: 180px;
+    height: 67px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: -4px 4px 6px #a5ffff28;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Lemon/Milk';
+}
+
+.btn-sup:hover{
+    background-color: #01aeae;
+    cursor: pointer;
+    
+    
+}
+
+.rain-girl {
+    margin: 50px 240px 0px 0px;
+    height: 400px;
+}
+
+.section-sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 100px;
+}
+
+.h3-sub {
+    border-top:2.4px solid #00ffff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family:'Lemon/Milk';
+    color: #00ffff;
+    letter-spacing: 2px;
+    align-items: center;
+    font-weight: -200;
+}
+
+.p-sub {
+    color: #ffffff;
+    margin: 4px 50px;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Noto Sans';
+    font-weight: bold;
+}
+
+.footer {
+    padding: 32px;
+    margin-top: 80px;
+    border-top: 2.4px solid #00ffff;
+}
+
+.logo-end {
+    height: 160px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:800px){
+    .header{
+     display: none;
+    }
+    .section-sup{
+        margin-left: 10%;
+    }
+    .rain-girl {
+        display: none;
+    }
+}
